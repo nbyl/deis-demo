@@ -1,0 +1,1 @@
+web: ./build/install/demo/bin/demo --server.port=${PORT}
