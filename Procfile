@@ -1,1 +1,1 @@
-web: ./build/install/demo/bin/demo --server.port=${PORT}
+web: java -jar ./build/libs/deis.jar --server.port=${PORT}

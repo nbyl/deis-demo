@@ -19,7 +19,6 @@ apply plugin: 'io.spring.dependency-management'
 
 jar {
     baseName = 'deis'
-    version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -49,4 +48,4 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.4'
 }
 
-task stage(dependsOn: ['installDist'])
+task stage(dependsOn: ['build'])
